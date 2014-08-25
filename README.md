@@ -8,3 +8,11 @@ Phew, we survived that, or not, don't know yet till we try. What about display m
 
 \\[x^2+y^2=\int_0^\infty \sqrt[5]{x}\,\mathrm{d}x\\]
 
+What about dollar signs?
+
+Let's see... $x$, $y$, and $z$.
+
+$$x+y=0$$
+
+Where did it go? $$x$$, $$y$$, $$z$$
+
