@@ -1,5 +1,7 @@
 # Book Example with a bit of maths
 
+[![Build Status](https://www.gitbook.io/button/status/book/ewon521/try-out-gitbook)](https://www.gitbook.io/book/ewon521/try-out-gitbook/activity)
+
 This is the first paragraph. Nice eh? All in markdown. Yeah! Awesome!
 
 Now this is the second paragraph. I will introduce a bit of maths. Don't worry, just doing some addition like \\(x+y=2\\) or \\(x^2+3-\zeta=\text{I don't even}\\).
@@ -27,7 +29,7 @@ $$\begin{aligned}
 n_1\sin\theta_i & = n_2\sin\theta_r
 \end{aligned}$$
 
-`\begin{align}`
+`\begin{align*}`
 
 \begin{align*}
 \dot{x} & = \sigma(y-x) \\
@@ -36,7 +38,15 @@ n_1\sin\theta_i & = n_2\sin\theta_r
 n_1\sin\theta_i & = n_2\sin\theta_r
 \end{align*}
 
-with excaped slashes
+Without subscripts and stars:
+
+\begin{align}
+\dot{x} & = \sigma(y-x) \\
+\dot{y} & = \rho x - y - xz \\
+\dot{z} & = -\beta z + xy
+\end{align}
+
+with excaped slashes:
 
 \\begin{align*}
 \\dot{x} & = \\sigma(y-x) \\\\
@@ -44,3 +54,13 @@ with excaped slashes
 \\dot{z} & = -\\beta z + xy \\\\
 n_1\sin\theta_i & = n_2\sin\theta_r
 \\end{align*}
+
+that doesn't contain subscripts and stars:
+
+\\begin{align}
+\\dot{x} & = \\sigma(y-x) \\\\
+\\dot{y} & = \\rho x - y - xz \\\\
+\\dot{z} & = -\\beta z + xy
+\\end{align}
+
+
