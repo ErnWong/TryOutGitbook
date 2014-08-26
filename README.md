@@ -16,3 +16,31 @@ $$x+y=0$$
 
 Where did it go? $$x$$, $$y$$, $$z$$
 
+## Align and Aligned
+
+`$$\begin{aligned}`
+
+$$\begin{aligned}
+\dot{x} & = \sigma(y-x) \\
+\dot{y} & = \rho x - y - xz \\
+\dot{z} & = -\beta z + xy\\
+n_1\sin\theta_i & = n_2\sin\theta_r
+\end{aligned}$$
+
+`\begin{align}`
+
+\begin{align*}
+\dot{x} & = \sigma(y-x) \\
+\dot{y} & = \rho x - y - xz \\
+\dot{z} & = -\beta z + xy \\
+n_1\sin\theta_i & = n_2\sin\theta_r
+\end{align*}
+
+with excaped slashes
+
+\\begin{align*}
+\\dot{x} & = \\sigma(y-x) \\\\
+\\dot{y} & = \\rho x - y - xz \\\\
+\\dot{z} & = -\\beta z + xy \\\\
+n_1\sin\theta_i & = n_2\sin\theta_r
+\\end{align*}
