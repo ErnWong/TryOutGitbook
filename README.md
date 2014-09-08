@@ -1,8 +1,8 @@
 # Book Example with a bit of maths
 
-[![Build Status](https://www.gitbook.io/button/status/book/ewon521/try-out-gitbook)](https://www.gitbook.io/book/ewon521/try-out-gitbook/activity)
-
 This is the first paragraph. Nice eh? All in markdown. Yeah! Awesome!
+
+![Hello](/examples-degrees.svg)
 
 Now this is the second paragraph. I will introduce a bit of maths. Don't worry, just doing some addition like \\(x+y=2\\) or \\(x^2+3-\zeta=\text{I don't even}\\).
 
@@ -62,5 +62,10 @@ that doesn't contain subscripts and stars:
 \\dot{y} & = \\rho x - y - xz \\\\
 \\dot{z} & = -\\beta z + xy
 \\end{align}
+
+
+[![Build Status](https://www.gitbook.io/button/status/book/ewon521/try-out-gitbook)](https://www.gitbook.io/book/ewon521/try-out-gitbook/activity)
+
+
 
 
